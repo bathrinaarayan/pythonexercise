@@ -1,4 +1,5 @@
-print("Bathri Naarayan")
-print("Age:18")
-print('I said, "Hello!"')
-print( sep="\n")
+first_name = "bathri"
+last_name = "naarayan"
+
+full_name = " ".join([first_name, last_name])
+print(full_name)
